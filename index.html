@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>2048Game</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="title clearfix">
+        <div class="col-md-4 logo">
+            <p>2048</p>
+        </div>
+        <div class="col-md-4 ">
+            <div class="source">
+                <p>分数</p>
+                <p class="number">0</p>
+            </div>
+            <div class="menu">
+                <p onclick="StartGame();" style="cursor:pointer;">开始游戏</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="source">
+                <p>历史最高成绩</p>
+                <p >9999999</p>
+            </div>
+            <div class="menu">
+                <p onclick="StartGame();" style="cursor:pointer;">重新开始</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content clearfix">
+        <div >
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+        </div>
+        <div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+        </div>
+        <div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+        </div>
+        <div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+            <div class="col-sm-3"><p class="cell"></p></div>
+        </div>
+
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/layer/layer.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

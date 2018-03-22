@@ -1,0 +1,56 @@
+﻿.logo {
+    background-color: #FFD700;
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+p {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.source {
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.menu {
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+}
+
+.title {
+    width: 600px;
+    margin: 0 auto;
+}
+
+    .title > div {
+        height: 80px;
+    }
+
+.content {
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: #bbada0;
+    color: #776e65;
+}
+
+    .content > div {
+        margin: 10px 0;
+        height:130px;
+    }
+
+.cell {
+    background-color: #ccc0b3;
+    height: 120px;
+    font-size: 60px;
+    font-weight: bolder;
+    padding:15px 0px;
+}
+
+
